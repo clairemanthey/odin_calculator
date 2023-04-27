@@ -1,0 +1,134 @@
+:root{
+	/*colors*/
+	--bg-clr: #CDCDE0;
+	--txt-clr: #422431;
+	--shadow-clr: #8C6980;
+}
+
+*, html{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*-Main Styles-*/
+
+.body{}
+
+.title{}
+
+.main{}
+
+.calculator__body{
+	display: grid;
+	border: 3px solid var(--txt-clr);
+	grid-template-columns: auto auto auto auto;
+	margin: 0 auto;
+	width: 600px;
+	grid-template-areas: 
+	    "calcDisplay calcDisplay calcDisplay calcDisplay" 
+	    "auto auto allClear delete"
+	    "seven eight nine divide"
+	    "four five six multiply"
+	    "one two three subtract"
+	    "zero decimal equal add"
+	;
+	justify-content: space-evenly;
+	background-color: var(--bg-clr);
+}
+
+.calc-keys{
+
+}
+/*-Grid Areas-*/
+
+.grid-area{
+	min-width: 100px;
+	min-height: 100px;
+	margin: 20px 15px;
+	font-size: 2.75rem;
+	border-radius: 6px;
+	border: none;
+	background-color: var(--bg-clr);
+	border: 1px solid var(--txt-clr);
+	color: var(--txt-clr);
+	box-shadow: 0px 8px var(--shadow-clr);
+}
+
+.grid-area:hover{
+	color: var(--bg-clr);
+	background-color: var(--txt-clr);
+}
+
+.grid-area:active{
+	box-shadow: 0px 2px var(--txt-clr);
+	transform: translateY(6px);
+}
+
+.calc-display{
+	grid-area: calcDisplay;
+	font-size: 3.25rem;
+	border-radius: 2px;
+	text-align: end;
+	border: none;
+	background-color: var(--bg-clr);
+	padding: 2px 50px 2px 2px;
+	margin: 15px 0;
+	color: #000;
+
+}
+
+.seven{
+	grid-area: seven;
+}
+.eight{
+	grid-area: eight;
+}
+.nine{
+	grid-area: nine;
+}
+.four{
+	grid-area: four;
+}
+.five{
+	grid-area: five;
+}
+.six{
+	grid-area: six;
+}
+.one{
+	grid-area: one;
+}
+.two{
+	grid-area: two;
+}
+.three{
+	grid-area: three;
+}
+.zero{
+	grid-area: zero;
+}
+.all-clear{
+	grid-area: allClear;
+}
+.delete{
+	grid-area: delete;
+}
+.add{
+	grid-area: add;
+}
+.subtract{
+	grid-area: subtract;
+}
+.multiply{
+	grid-area: multiply;
+}
+.divide{
+	grid-area: divide;
+}
+.equal{
+	grid-area: equal;
+}
+.decimal{
+	grid-area: decimal;
+}
