@@ -25,7 +25,7 @@ I began The Odin Project’s Foundations Course to review my knowledge of HTML, 
 
 ## Screenshot
 
-![My Image](space_calc.png)
+![My Image](image_calc.png)
 
 ## Built With
 - HTML
