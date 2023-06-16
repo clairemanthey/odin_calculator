@@ -6,6 +6,8 @@ Part of the Foundations Course of The Odin Project’s curriculum
 
 [Motivation](#motivation)
 
+[Screenshot](#Screenshot)
+
 [Built With](#built-with)
 
 [License](#license)
@@ -20,6 +22,10 @@ The project included features beyond being able to compute basic mathematical op
 
 ## Motivation
 I began The Odin Project’s Foundations Course to review my knowledge of HTML, CSS, and JavaScript skills, as well as see if there were any concepts I had previously missed. I wanted to gain more experience using HTML, CSS, and JavaScript to create a web application. 
+
+## Screenshot
+
+![My Image](space_calc.png)
 
 ## Built With
 - HTML
